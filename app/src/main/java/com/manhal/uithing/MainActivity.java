@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = findViewById(R.id.txt2);
+        textView = findViewById(R.id.textView2);
     }
     public void gotothesecondactivity(){
         Intent intent = new Intent(MainActivity.this,SecondActivity.class);
